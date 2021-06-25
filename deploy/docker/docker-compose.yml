@@ -1,0 +1,11 @@
+version: '3'
+services:
+  nginx:
+    image: r19750927/nginx:demo
+    hostname: nginx
+    container_name: nginx
+    environment:
+      BGCOLOR: green
+    restart: always
+    ports:
+      - '8080:80'
