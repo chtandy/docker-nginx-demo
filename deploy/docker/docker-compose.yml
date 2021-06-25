@@ -8,4 +8,4 @@ services:
       BGCOLOR: green
     restart: always
     ports:
-      - '8080:80'
+      - '080:80'
