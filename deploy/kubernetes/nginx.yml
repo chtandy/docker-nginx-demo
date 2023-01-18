@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: r19750927/nginx:demo
+        image: nginx:1.21.3
         env:
         - name: BGCOLOR
           value: yellow
